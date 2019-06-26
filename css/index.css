@@ -1,0 +1,47 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+#banner {
+    height: 100vh;
+    background-image: url(../images/main_banner.jpg);
+    text-align: center;
+}
+#banner h1 {
+    font-family: Futura PT;
+    font-size: 96px;
+    line-height: 123px;
+    color: #fff;
+}
+#banner h2 {
+    font-family: Futura PT;
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff;
+}
+.container-text {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+#beginning {
+    background-image: url(../images/vector_bg.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#beginning h3 {
+    font-family: Futura PT;
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
