@@ -17,6 +17,7 @@
     transition: all 0.3s ease;
     background-color: #F92525;
     line-height: 32px;
+    cursor: pointer;
 }
 .btn-group .full small {
     padding: 0 12px;
@@ -31,7 +32,8 @@
     text-align: center;
     cursor: pointer;
 }
-.btn-section.home {
+.btn-section.active,
+.full .btn-section:hover {
     background-color: #F92525;
 }
 .btn-group:hover .full{

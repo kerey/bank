@@ -1,0 +1,86 @@
+.bg-grey {
+    background: #FAFAFA;
+}
+.pt-48 {padding-top: 48px}
+.pb-48 {padding-bottom: 48px}
+.pl-48 {padding-left: 48px}
+.pr-48 {padding-right: 48px}
+.py-48 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.mt-48 {margin-top: 48px}
+.mb-48 {margin-bottom: 48px}
+.ml-48 {margin-left: 48px}
+.mr-48 {margin-right: 48px}
+.my-48 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.pt-72 {padding-top: 72px}
+.pb-72 {padding-bottom: 72px}
+.pl-72 {padding-left: 72px}
+.pr-72 {padding-right: 72px}
+.py-72 {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.py-96 {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+p.text-grey {
+    color: #333333;
+}
+.cursor-pointer {cursor: pointer}
+/* ANIMATIONS */
+/* Wobble Vertical */
+@keyframes wobble-vertical {
+    16.65% {
+        transform: translateY(8px);
+    }
+    33.3% {
+        transform: translateY(-6px);
+    }
+    49.95% {
+        transform: translateY(4px);
+    }
+    66.6% {
+        transform: translateY(-2px);
+    }
+    83.25% {
+        transform: translateY(1px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.wobble-vertical {
+    display: inline-block;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-vertical:hover {
+    animation-name: wobble-vertical;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+.with-quote {
+    position: relative;
+}
+.with-quote:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -80px;
+    height: 32px;
+    width: 32px;
+    background-image: url(../images/icons/quote.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

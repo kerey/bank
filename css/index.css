@@ -1,7 +1,39 @@
+@font-face {
+    font-family: Futura Book;
+    src: url('../fonts/FuturaPT/FuturaPT-Book.ttf') format("opentype");
+}
+@font-face {
+    font-family: Futura Medium;
+    src: url('../fonts/FuturaPT/FuturaPT-Medium.ttf') format("opentype");
+}
+@font-face {
+    font-family: Futura Demi;
+    src: url('../fonts/FuturaPT/FuturaPT-Demi.ttf') format("opentype");
+}
+@font-face {
+    font-family: Futura Heavy;
+    src: url('../fonts/FuturaPT/FuturaPT-Heavy.ttf') format("opentype");
+}
+.futura-book {
+    font-family: 'Futura Book', serif;
+}
+.futura-medium {
+    font-family: 'Futura Medium', serif;
+}
+.futura-demi {
+    font-family: 'Futura Demi', serif;
+}
+.lora {
+    font-family: 'Lora', serif;
+}
 * {
+    font-family: 'Futura Book', 'Lora', serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
@@ -9,39 +41,82 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+h1 {
+    font-family: 'Futura Heavy', serif;
+}
+h2 {
+    font-family: 'Futura Medium', serif;
+}
+h3, h4 {
+    font-family: 'Futura Demi', serif;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 24px;
+}
+p {
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+a {
+    text-decoration: none;
+}
 #banner {
     height: 100vh;
     background-image: url(../images/main_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 }
 #banner h1 {
-    font-family: Futura PT;
     font-size: 96px;
     line-height: 123px;
     color: #fff;
 }
 #banner h2 {
-    font-family: Futura PT;
     font-size: 36px;
     line-height: 46px;
     color: #fff;
 }
+#banner .arrow-bottom {
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
 .container-text {
-    max-width: 560px;
+    max-width: 640px;
     margin: 0 auto;
 }
 
 #beginning {
-    background-image: url(../images/vector_bg.png);
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
-#beginning h3 {
-    font-family: Futura PT;
+.beginning-header {
+    height: 30vh;
+    position: relative;
+}
+.beginning-header img {
+    min-height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.beginning-header h3 {
+    position: absolute;
+    top: 35%;
     font-size: 36px;
     line-height: 40px;
     color: #fff;
-    padding-top: 96px;
-    padding-bottom: 96px;
+    font-family: Futura PT;
+    left: 0;
+    width: 100%;
+}
+.container-text .p-min {
+    max-width: 560px;
 }
