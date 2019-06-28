@@ -132,3 +132,9 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.section-3__header {
+    background-image: url(../images/vector_bg.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
