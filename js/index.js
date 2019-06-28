@@ -2,6 +2,7 @@ const links = [
     { id: '#banner', active: true },
     { id: '#beginning', active: true },
     { id: '#section-2', action: true },
+    { id: '#section-3', action: true },
 ];
 
 $( document ).ready(function() {

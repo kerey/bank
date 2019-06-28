@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ed18bc-2b56-469c-a2d5-409f3324ce33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="401">
-                  <caret line="1736" lean-forward="true" selection-start-line="1736" selection-end-line="1736" />
+                <state relative-caret-position="427">
+                  <caret line="1738" column="32" lean-forward="true" selection-start-line="1738" selection-start-column="32" selection-end-line="1738" selection-end-column="32" />
                   <folding>
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -60,8 +60,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" selection-start-line="3" selection-end-line="4" />
+                <state relative-caret-position="230">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
                 </state>
               </provider>
             </entry>
@@ -74,7 +74,7 @@
             <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/bank">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret selection-end-line="3" selection-end-column="6" />
+                  <caret selection-end-line="12" />
                 </state>
               </provider>
             </entry>
@@ -103,8 +103,8 @@
         <option value="$PROJECT_DIR$/css/sidebar.css" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/bank" />
         <option value="$PROJECT_DIR$/css/shared.css" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -189,12 +189,12 @@
       <workItem from="1561609700436" duration="175000" />
       <workItem from="1561646605293" duration="4578000" />
       <workItem from="1561726936234" duration="1617000" />
-      <workItem from="1561729745126" duration="16026000" />
+      <workItem from="1561729745126" duration="16800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27506000" />
+    <option name="totallyTimeSpent" value="28280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -257,13 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
@@ -271,17 +264,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/bank">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="3" selection-end-column="6" />
+          <caret selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="1736" lean-forward="true" selection-start-line="1736" selection-end-line="1736" />
+        <state relative-caret-position="427">
+          <caret line="1738" column="32" lean-forward="true" selection-start-line="1738" selection-start-column="32" selection-end-line="1738" selection-end-column="32" />
           <folding>
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
           </folding>
