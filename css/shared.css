@@ -25,6 +25,14 @@
     padding-top: 72px;
     padding-bottom: 72px;
 }
+.pt-96 {padding-top: 96px}
+.pb-96 {padding-bottom: 96px}
+.pl-96 {padding-left: 96px}
+.pr-96 {padding-right: 96px}
+.py-96 {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
 .py-96 {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -83,4 +91,6 @@ p.text-grey {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.text-white {
+    color: #fff;
+}

@@ -124,3 +124,11 @@ a {
     max-width: 960px;
     margin: 0 auto;
 }
+
+/* Section 2 */
+.section-2__header {
+    background-image: url(../images/vector_bg2.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
