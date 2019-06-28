@@ -3,6 +3,11 @@ const links = [
     { id: '#beginning', active: true },
     { id: '#section-2', action: true },
     { id: '#section-3', action: true },
+    { id: '#section-4', action: true },
+    { id: '#section-5', action: true },
+    { id: '#section-6', action: true },
+    { id: '#section-7', action: true },
+    { id: '#section-8', action: true },
 ];
 
 $( document ).ready(function() {

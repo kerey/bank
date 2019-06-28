@@ -66,6 +66,9 @@ p {
 a {
     text-decoration: none;
 }
+hr {
+    border-color: rgba(51, 51, 51, 0.1);
+}
 #banner {
     height: 100vh;
     background-image: url(../images/main_banner.jpg);
@@ -132,9 +135,10 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.section-3__header {
+.section-header {
     background-image: url(../images/vector_bg.png);
     background-position: top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    height: 420px;
 }
