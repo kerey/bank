@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ed18bc-2b56-469c-a2d5-409f3324ce33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="1034" column="18" selection-start-line="1034" selection-start-column="18" selection-end-line="1034" selection-end-column="18" />
+                <state relative-caret-position="396">
+                  <caret line="1328" column="12" selection-start-line="1328" selection-start-column="12" selection-end-line="1328" selection-end-column="12" />
                   <folding>
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -73,8 +72,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/bank">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="7" column="12" lean-forward="true" selection-end-line="12" />
+                <state>
+                  <caret selection-end-line="11" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -87,6 +86,7 @@
     <findStrings>
       <find>http</find>
       <find>muh</find>
+      <find>muhtar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,12 +186,12 @@
       <workItem from="1561609700436" duration="175000" />
       <workItem from="1561646605293" duration="4578000" />
       <workItem from="1561726936234" duration="1617000" />
-      <workItem from="1561729745126" duration="11991000" />
+      <workItem from="1561729745126" duration="13575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23471000" />
+    <option name="totallyTimeSpent" value="25055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -230,13 +230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/flex.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -270,15 +263,22 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/bank">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="12" lean-forward="true" selection-end-line="12" />
+        <state>
+          <caret selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/flex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="1034" column="18" selection-start-line="1034" selection-start-column="18" selection-end-line="1034" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="1328" column="12" selection-start-line="1328" selection-start-column="12" selection-end-line="1328" selection-end-column="12" />
           <folding>
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
           </folding>
