@@ -120,3 +120,7 @@ a {
 .container-text .p-min {
     max-width: 560px;
 }
+.img-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
