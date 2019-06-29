@@ -25,6 +25,14 @@
     padding-top: 72px;
     padding-bottom: 72px;
 }
+.mt-72 {margin-top: 72px}
+.mb-72 {margin-bottom: 72px}
+.ml-72 {margin-left: 72px}
+.mr-72 {margin-right: 72px}
+.my-72 {
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
 .pt-96 {padding-top: 96px}
 .pb-96 {padding-bottom: 96px}
 .pl-96 {padding-left: 96px}
@@ -44,6 +52,9 @@
 .my-96 {
     margin-top: 96px;
     margin-bottom: 96px;
+}
+.font-24 {
+    font-size: 24px;
 }
 
 p.text-grey {

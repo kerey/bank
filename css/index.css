@@ -14,8 +14,15 @@
     font-family: Futura Heavy;
     src: url('../fonts/FuturaPT/FuturaPT-Heavy.ttf') format("opentype");
 }
+@font-face {
+    font-family: Futura Book Italic;
+    src: url('../fonts/FuturaPT/FuturaPT-BookObl.ttf') format("opentype");
+}
 .futura-book {
     font-family: 'Futura Book', serif;
+}
+.futura-book-italic {
+    font-family: 'Futura Book Italic', serif;
 }
 .futura-medium {
     font-family: 'Futura Medium', serif;
@@ -127,7 +134,15 @@ hr {
     max-width: 960px;
     margin: 0 auto;
 }
-
+.section-1__ul {
+    padding-left: 16px;
+}
+.section-1__ul li{
+    line-height: 32px;
+    font-size: 16px;
+    font-family: 'Futura Book', serif;
+    padding-left: 12px;
+}
 /* Section 2 */
 .section-2__header {
     background-image: url(../images/vector_bg2.png);
