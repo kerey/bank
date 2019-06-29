@@ -37,6 +37,14 @@
     padding-top: 96px;
     padding-bottom: 96px;
 }
+.mt-96 {margin-top: 96px}
+.mb-96 {margin-bottom: 96px}
+.ml-96 {margin-left: 96px}
+.mr-96 {margin-right: 96px}
+.my-96 {
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
 
 p.text-grey {
     color: #333333;
