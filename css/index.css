@@ -160,7 +160,7 @@ hr {
     top: 100%;
     left: -100px;
     width: 200px;
-    height: 80px;
+    min-height: 80px;
     background-color: #fff;
     opacity: 0;
     transition: all 0.3s ease;
