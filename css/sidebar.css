@@ -3,6 +3,7 @@
     top: 0;
     left: 0;
     height: 100vh;
+    align-items: center;
 }
 .btn-group {
     height: 32px;
@@ -38,4 +39,30 @@
 }
 .btn-group:hover .full{
     max-width: 500px;
+}
+
+@media screen and (max-width: 576px) {
+    .sidebar {
+        align-items: flex-start;
+    }
+    .sidebar .sidebar-links {
+        display: flex;
+    }
+    .btn-group:hover .full {
+        max-width: 0;
+    }
+    .socials:hover .full,
+    .lang:hover .full {
+        max-width: 500px;
+    }
+    .socials {
+        position: fixed;
+        bottom: 24px;
+        left: 16px;
+    }
+    .lang {
+        position: fixed;
+        bottom: 24px;
+        right: 16px;
+    }
 }
