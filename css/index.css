@@ -144,12 +144,6 @@ hr {
     padding-left: 12px;
 }
 /* Section 2 */
-.section-2__header {
-    background-image: url(../images/vector_bg2.png);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .section-header {
     background-image: url(../images/vector_bg.png);
     background-position: top;
@@ -157,8 +151,10 @@ hr {
     background-repeat: no-repeat;
     height: 420px;
 }
-
-
+.section-2__header {
+    background-image: url(../images/vector_bg2.png);
+    height: auto;
+}
 /* Section Characters*/
 .characters {
     max-width: 720px;

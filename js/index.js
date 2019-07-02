@@ -50,7 +50,7 @@ $(window).scroll(function(){
         const height = $(link.id).height();
         const bottom = top + height;
         const element = $('#sidebar a[href="'+link.id+'"] .btn-section');
-        if (scrollTop >= top && scrollTop < bottom) {
+        if (scrollTop - top  > -80 && bottom - scrollTop > 80) {
             element.addClass('active');
         } else {
             element.removeClass('active');
