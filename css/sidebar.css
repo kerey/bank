@@ -51,10 +51,6 @@
     .btn-group:hover .full {
         max-width: 0;
     }
-    .socials:hover .full,
-    .lang:hover .full {
-        max-width: 500px;
-    }
     .socials {
         position: fixed;
         bottom: 24px;
@@ -64,5 +60,8 @@
         position: fixed;
         bottom: 24px;
         right: 16px;
+    }
+    .btn-group.collapse .full{
+        max-width: 500px;
     }
 }

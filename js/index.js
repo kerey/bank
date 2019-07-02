@@ -13,22 +13,16 @@ const characters = [
     {id: 1, name: 'Name'}
 ];
 
+function onCollapse(el){
+    if (el.hasClass('collapse')) {
+        el.removeClass('collapse');
+    } else {
+        el.addClass('collapse')
+    }
+}
+
 $( document ).ready(function() {
     $("body").append("<div id='tooltip'></div>");
-    $('#characters .character')
-        // .mouseover(function(){
-        //     console.log('mouseover');
-        //     $('#tooltip').css({opacity:0.8}).fadeIn(400).empty();
-        // })
-        // .mousemove(function(kmouse){
-        //     console.log('mousemove', kmouse.pageX, kmouse.pageY);
-        //     $('#tooltip').css({left:kmouse.pageX+15, top:kmouse.pageY+15});
-        //     changeTooltip(1);
-        // })
-        // .mouseout(function(){
-        //     $('#tooltip').fadeOut(400);
-        //     console.log('mouseout', kmouse.pageX);
-        // });
     $('#characters .character').hover(
         function(){
             const img = $(this).find('img');
@@ -41,6 +35,13 @@ $( document ).ready(function() {
             img.attr('src', src);
         }
     );
+
+    $('#lang').on('click',function() {
+        onCollapse($(this));
+    });
+    $('#socials').on('click', function(){
+        onCollapse($(this));
+    });
 });
 
 $(window).scroll(function(){
