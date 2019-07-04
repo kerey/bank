@@ -44,6 +44,7 @@
 @media screen and (max-width: 576px) {
     .sidebar {
         align-items: flex-start;
+        height: auto;
     }
     .sidebar .sidebar-links {
         display: flex;

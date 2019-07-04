@@ -147,7 +147,7 @@ hr {
 .section-header {
     background-image: url(../images/vector_bg.png);
     background-position: top;
-    background-size: auto 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 420px;
 }
@@ -243,5 +243,8 @@ hr {
     .section-header {
         height: 300px;
         margin-bottom: 48px;
+    }
+    .section-2__header {
+        height: auto;
     }
 }
