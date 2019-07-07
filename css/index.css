@@ -143,11 +143,53 @@ hr {
     font-family: 'Futura Book', serif;
     padding-left: 12px;
 }
+.fixed-bg {
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.person-png {
+    height: 515px;
+    background-image: url(../images/person.png);
+}
+.turanbank-jpg {
+    height: 223px;
+    background-image: url(../images/turanbank.jpg);
+}
+.erzhan-jpg {
+    height: 525px;
+    background-image: url(../images/erzhan.jpg);
+}
+.muhtar-jpg {
+    height: 525px;
+    background-image: url(../images/muhtar.jpg);
+}
+.gov-jpg {
+    height: 525px;
+    background-image: url(../images/gov.jpg);
+}
+.samruk-png {
+    height: 525px;
+    background-image: url(../images/samruk.png);
+}
+.qazkom-png {
+    height: 525px;
+    background-image: url(../images/qazkom.png);
+}
+@media screen and (max-width: 576px) {
+    .person-png, .erzhan-jpg, .muhtar-jpg, .gov-jpg, .samruk-png, .qazkom-png {
+        height: 300px;
+    }
+    .turanbank-jpg {
+        height: 100px;
+    }
+}
 /* Section 2 */
 .section-header {
     background-image: url(../images/vector_bg.png);
     background-position: top;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     height: 420px;
 }

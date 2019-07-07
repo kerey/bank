@@ -58,3 +58,9 @@ $(window).scroll(function(){
         }
     });
 });
+
+function copyLink() {
+    const copyText = document.getElementById('site-link');
+    copyText.select();
+    document.execCommand('copy');
+}
