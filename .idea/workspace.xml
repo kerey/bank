@@ -15,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="190" column="13" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
+            <state relative-caret-position="169">
+              <caret line="246" column="38" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -89,11 +89,6 @@
             <path>
               <item name="bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -149,12 +144,13 @@
       <workItem from="1562519747320" duration="1995000" />
       <workItem from="1562568548848" duration="48000" />
       <workItem from="1562572777171" duration="1951000" />
-      <workItem from="1562582881581" duration="291000" />
+      <workItem from="1562582881581" duration="456000" />
+      <workItem from="1562588804491" duration="87000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71037000" />
+    <option name="totallyTimeSpent" value="71289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -254,8 +250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="190" column="13" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
+        <state relative-caret-position="169">
+          <caret line="246" column="38" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
         </state>
       </provider>
     </entry>

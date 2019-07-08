@@ -243,6 +243,9 @@ hr {
     display: flex;
 }
 @media screen and (max-width: 576px) {
+    #banner {
+        background-attachment: inherit;
+    }
     #banner h1 {
         font-size: 32px;
     }
