@@ -132,7 +132,6 @@ hr {
     max-width: 560px;
 }
 .img-container {
-    max-width: 960px;
     margin: 0 auto;
 }
 .section-1__ul {
@@ -155,7 +154,7 @@ hr {
     background-image: url(../images/person.png);
 }
 .turanbank-jpg {
-    height: 300px;
+    height: 720px;
     background-image: url(../images/turanbank.jpg);
 }
 .erzhan-jpg {
