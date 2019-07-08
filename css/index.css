@@ -83,6 +83,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background-attachment: fixed;
 }
 #banner h1 {
     font-size: 96px;
@@ -177,12 +178,18 @@ hr {
     height: 525px;
     background-image: url(../images/qazkom.png);
 }
+.battle-jpg {
+    height: 725px;
+    background-image: url(../images/battle.jpg);
+}
+.battle {
+    z-index: -1;
+    position: relative;
+    top: -100px;
+}
 @media screen and (max-width: 576px) {
-    .person-png, .erzhan-jpg, .muhtar-jpg, .gov-jpg, .samruk-png, .qazkom-png {
+    .person-png, .erzhan-jpg, .muhtar-jpg, .gov-jpg, .samruk-png, .qazkom-png, .battle-jpg, .turanbank-jpg {
         height: 300px;
-    }
-    .turanbank-jpg {
-        height: 100px;
     }
 }
 /* Section 2 */
@@ -285,8 +292,13 @@ hr {
     .section-header {
         height: 300px;
         margin-bottom: 48px;
+        -webkit-background-size: auto 100%;
+        background-size: auto 100%;
     }
     .section-2__header {
         height: auto;
+    }
+    .fixed-bg {
+        background-attachment: inherit;
     }
 }
