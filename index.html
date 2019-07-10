@@ -40,12 +40,113 @@
         <section id="banner" class="d-flex justify-content-center flex-column">
             <h1>« БТА Банк »</h1>
             <h2>История развития банковской системы Казахстана</h2>
-            <div class="arrow-bottom">
+            <div class="arrow-bottom arrow bounce">
                 <a href="#beginning">
                     <img class="wobble-vertical cursor-pointer" src="images/icons/arrow-bottom.svg" alt="">
                 </a>
             </div>
         </section>
+        <!--SIDEBAR-->
+        <div id="sidebar" class="sidebar d-flex">
+            <div class="sidebar-links">
+                <a class="btn-group d-flex" href="#banner">
+                    <div class="btn-section active d-flex justify-content-center align-items-center">
+                        <img src="images/home.svg" alt="">
+                    </div>
+                </a>
+                <a class="btn-group d-flex" href="#beginning">
+                    <div class="full">
+                        <small>Начало: «Туранбанк» и Alem Bank Kazakstan</small>
+                    </div>
+                    <div class="btn-section">I</div>
+                </a>
+                <a class="btn-group d-flex" href="#section-2">
+                    <div class="full">
+                        <small>Борьба за возвращение активов: успехи и перспективы. Часть 1</small>
+                    </div>
+                    <div class="btn-section">II</div>
+                </a>
+                <a class="btn-group d-flex" href="#section-3">
+                    <div class="full">
+                        <small>Борьба за возвращение активов: успехи и перспективы. Часть 2</small>
+                    </div>
+                    <div class="btn-section">III</div>
+                </a>
+                <a class="btn-group d-flex" href="#section-4">
+                    <div class="full">
+                        <small>Борьба за возвращение активов: успехи и перспективы. Часть 3</small>
+                    </div>
+                    <div class="btn-section">IV</div>
+                </a>
+                <a class="btn-group d-flex" href="#section-5">
+                    <div class="full">
+                        <small>Борьба за возвращение активов: успехи и перспективы. Часть 4</small>
+                    </div>
+                    <div class="btn-section">V</div>
+                </a>
+                <a class="btn-group d-flex" href="#section-6">
+                    <div class="full">
+                        <small>Короткие истории</small>
+                    </div>
+                    <div class="btn-section">VI</div>
+                </a>
+                <a class="btn-group d-flex" href="#section-7">
+                    <div class="full">
+                        <small>Лоббисты</small>
+                    </div>
+                    <div class="btn-section">VII</div>
+                </a>
+                <a class="btn-group d-flex mb-2" href="#section-8">
+                    <div class="full">
+                        <small>Материалы</small>
+                    </div>
+                    <div class="btn-section">VIII</div>
+                </a>
+                <div class="btn-group d-flex socials" id="socials">
+                    <div class="btn-section f-center">
+                        <img src="images/icons/share.svg" alt=""/>
+                    </div>
+                    <div class="full d-flex">
+                        <a class="btn-section f-center" href="https://vk.com/share.php?url=http://btahistory.kz" target="_blank">
+                            <img src="images/icons/vk.svg" alt=""/>
+                        </a>
+                        <a class="btn-section f-center" href="https://www.facebook.com/sharer/sharer.php?u=http://btahistory.kz" target="_blank">
+                            <img src="images/icons/fb.svg" alt=""/>
+                        </a>
+                        <a class="btn-section f-center" href="https://twitter.com/intent/tweet?text=http://btahistory.kz" target="_blank">
+                            <img src="images/icons/twitter.svg" alt=""/>
+                        </a>
+                        <a class="btn-section f-center" href="whatsapp://send?text=http://btahistory.kz" data-action="share/whatsapp/share" target="_blank">
+                            <img src="images/icons/wat.svg" alt=""/>
+                        </a>
+                        <a class="btn-section f-center" href="https://telegram.me/share/url?url=http://btahistory.kz" target="_blank">
+                            <img src="images/icons/tg.svg" alt=""/>
+                        </a>
+                        <button class="btn-section f-center tooltip-text" onclick="copyLink()">
+                            <input id="site-link" value="http://btahistory.kz" type="text" />
+                            <img src="images/icons/copy.svg" alt=""/>
+                            <span class="span-text top">Copy to clipboard</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="btn-group d-flex lang" id="lang">
+                    <div class="btn-section f-center">
+                        <img src="images/icons/lang.svg" alt=""/>
+                    </div>
+                    <div class="full d-flex">
+                        <a class="btn-section" href="#">
+                            KZ
+                        </a>
+                        <a class="btn-section" href="#">
+                            RU
+                        </a>
+                        <a class="btn-section" href="#">
+                            EN
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section id="beginning">
             <div>
                 <div class="section-header beginning-header">
@@ -5239,107 +5340,12 @@
                     <a target="_blank" href="files/full.pdf">Приговор. Полная версия.pdf</a><br/><br/>
                 </p>
             </div>
-
         </section>
-        <!--SIDEBAR-->
-        <div id="sidebar" class="sidebar d-flex">
-            <div class="sidebar-links">
-                <a class="btn-group d-flex" href="#banner">
-                    <div class="btn-section active d-flex justify-content-center align-items-center">
-                        <img src="images/home.svg" alt="">
-                    </div>
-                </a>
-                <a class="btn-group d-flex" href="#beginning">
-                    <div class="full">
-                        <small>Начало: «Туранбанк» и Alem Bank Kazakstan</small>
-                    </div>
-                    <div class="btn-section">I</div>
-                </a>
-                <a class="btn-group d-flex" href="#section-2">
-                    <div class="full">
-                        <small>Борьба за возвращение активов: успехи и перспективы. Часть 1</small>
-                    </div>
-                    <div class="btn-section">II</div>
-                </a>
-                <a class="btn-group d-flex" href="#section-3">
-                    <div class="full">
-                        <small>Борьба за возвращение активов: успехи и перспективы. Часть 2</small>
-                    </div>
-                    <div class="btn-section">III</div>
-                </a>
-                <a class="btn-group d-flex" href="#section-4">
-                    <div class="full">
-                        <small>Борьба за возвращение активов: успехи и перспективы. Часть 3</small>
-                    </div>
-                    <div class="btn-section">IV</div>
-                </a>
-                <a class="btn-group d-flex" href="#section-5">
-                    <div class="full">
-                        <small>Борьба за возвращение активов: успехи и перспективы. Часть 4</small>
-                    </div>
-                    <div class="btn-section">V</div>
-                </a>
-                <a class="btn-group d-flex" href="#section-6">
-                    <div class="full">
-                        <small>Короткие истории</small>
-                    </div>
-                    <div class="btn-section">VI</div>
-                </a>
-                <a class="btn-group d-flex" href="#section-7">
-                    <div class="full">
-                        <small>Лоббисты</small>
-                    </div>
-                    <div class="btn-section">VII</div>
-                </a>
-                <a class="btn-group d-flex mb-2" href="#section-8">
-                    <div class="full">
-                        <small>Материалы</small>
-                    </div>
-                    <div class="btn-section">VIII</div>
-                </a>
-                <div class="btn-group d-flex socials" id="socials">
-                    <div class="btn-section f-center">
-                        <img src="images/icons/share.svg" alt=""/>
-                    </div>
-                    <div class="full d-flex">
-                        <a class="btn-section f-center" href="https://vk.com/share.php?url=http://btahistory.kz" target="_blank">
-                            <img src="images/icons/vk.svg" alt=""/>
-                        </a>
-                        <a class="btn-section f-center" href="https://www.facebook.com/sharer/sharer.php?u=http://btahistory.kz" target="_blank">
-                            <img src="images/icons/fb.svg" alt=""/>
-                        </a>
-                        <a class="btn-section f-center" href="https://twitter.com/intent/tweet?text=http://btahistory.kz" target="_blank">
-                            <img src="images/icons/twitter.svg" alt=""/>
-                        </a>
-                        <a class="btn-section f-center" href="whatsapp://send?text=http://btahistory.kz" data-action="share/whatsapp/share" target="_blank">
-                            <img src="images/icons/wat.svg" alt=""/>
-                        </a>
-                        <a class="btn-section f-center" href="https://telegram.me/share/url?url=http://btahistory.kz" target="_blank">
-                            <img src="images/icons/tg.svg" alt=""/>
-                        </a>
-                        <button class="btn-section f-center tooltip-text" onclick="copyLink()">
-                            <input id="site-link" value="http://btahistory.kz" type="text" />
-                            <img src="images/icons/copy.svg" alt=""/>
-                            <span class="span-text top">Copy to clipboard</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="btn-group d-flex lang" id="lang">
-                    <div class="btn-section f-center">
-                        <img src="images/icons/lang.svg" alt=""/>
-                    </div>
-                    <div class="full d-flex">
-                        <a class="btn-section" href="#">
-                            KZ
-                        </a>
-                        <a class="btn-section" href="#">
-                            RU
-                        </a>
-                        <a class="btn-section" href="#">
-                            EN
-                        </a>
-                    </div>
-                </div>
-        </div>
+        <footer class="mt-96">
+            <div class="container-text py-48">
+                <p class="text-white lora text-center">Все права сохранены и защищены &copy; 2019</p>
+            </div>
+        </footer>
+
     </body>
 </html>
