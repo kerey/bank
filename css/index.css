@@ -313,6 +313,10 @@ footer {
     h2 {
         font-size: 28px;
     }
+    #banner .arrow-bottom {
+        margin-top: 24px;
+        position: static;
+    }
     .beginning-header h3 {
         font-size: 24px;
     }
